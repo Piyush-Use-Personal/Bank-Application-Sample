@@ -9,8 +9,10 @@
     "nodemon": " nodemon --ignore 'logs/*'"
   },
   "jest": {
-    "setupFilesAfterEnv": ["./test/setup.js"]
-},
+    "setupFilesAfterEnv": [
+      "./test/setup.js"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
